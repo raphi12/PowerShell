@@ -1,51 +1,51 @@
 # Win-10-app-cleaner
 #
 # Games
-Get-AppxPackage 828B5831.HiddenCityMysteryofShadows | Remove-AppxPackage
-Get-AppxPackage A278AB0D.MarchofEmpires | Remove-AppxPackage
-Get-AppxPackage king.com.CandyCrushSaga | Remove-AppxPackage
-Get-AppxPackage king.com.CandyCrushSodaSaga | Remove-AppxPackage
-Get-AppxPackage Microsoft.MinecraftUWP | Remove-AppxPackage
-Get-AppxPackage Microsoft.MicrosoftSolitaireCollection | Remove-AppxPackage
+Get-AppxPackage 828B5831.HiddenCityMysteryofShadows -AllUsers | Remove-AppxPackage
+Get-AppxPackage A278AB0D.MarchofEmpires -AllUsers | Remove-AppxPackage
+Get-AppxPackage king.com.CandyCrushSaga -AllUsers | Remove-AppxPackage
+Get-AppxPackage king.com.CandyCrushSodaSaga -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MinecraftUWP -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MicrosoftSolitaireCollection -AllUsers | Remove-AppxPackage
 #
 # XBOX
-Get-AppxPackage Microsoft.Xbox.TCUI| Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxApp| Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxGameOverlay | Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxGamingOverlay| Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxIdentityProvider| Remove-AppxPackage
-Get-AppxPackage Microsoft.XboxSpeechToTextOverlay| Remove-AppxPackage
+Get-AppxPackage Microsoft.Xbox.TCUI -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxApp -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxGameOverlay -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxGamingOverlay -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxIdentityProvider-AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.XboxSpeechToTextOverlay -AllUsers | Remove-AppxPackage
 #
 # Microsoft
-Get-AppxPackage Microsoft.BingNews | Remove-AppxPackage
-Get-AppxPackage Microsoft.BingWeather| Remove-AppxPackage
-Get-AppxPackage Microsoft.GetHelp| Remove-AppxPackage
-Get-AppxPackage Microsoft.Getstarted| Remove-AppxPackage
-Get-AppxPackage Microsoft.People| Remove-AppxPackage
-Get-AppxPackage Microsoft.Messaging| Remove-AppxPackage
-Get-AppxPackage Microsoft.Microsoft3DViewer| Remove-AppxPackage
-Get-AppxPackage Microsoft.MicrosoftOfficeHub| Remove-AppxPackage
-Get-AppxPackage Microsoft.MicrosoftStickyNotes| Remove-AppxPackage
-Get-AppxPackage Microsoft.MSPaint| Remove-AppxPackage
-#Get-AppxPackage Microsoft.Office.OneNote| Remove-AppxPackage
-Get-AppxPackage Microsoft.Print3D| Remove-AppxPackage
-Get-AppxPackage Microsoft.SkypeApp| Remove-AppxPackage
-#Get-AppxPackage Microsoft.Windows.Photos| Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsAlarms| Remove-AppxPackage
-#Get-AppxPackage Microsoft.WindowsCamera| Remove-AppxPackage
-Get-AppxPackage microsoft.windowsCommunicationsApps| Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsFeedbackHub| Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsMaps| Remove-AppxPackage
-Get-AppxPackage Microsoft.WindowsSoundRecorder| Remove-AppxPackage
-Get-AppxPackage Microsoft.ZuneMusic| Remove-AppxPackage
-Get-AppxPackage Microsoft.ZuneVideo| Remove-AppxPackage
-Get-AppxPackage Microsoft.MixedReality.Portal | Remove-AppxPackage
-Get-AppxPackage Microsoft.549981C3F5F10 | Remove-AppxPackage
+Get-AppxPackage Microsoft.BingNews -AllUsers| Remove-AppxPackage
+Get-AppxPackage Microsoft.BingWeather -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.GetHelp -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.Getstarted -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.People -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.Messaging -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.Microsoft3DViewer -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MicrosoftOfficeHub -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MicrosoftStickyNotes -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MSPaint -AllUsers | Remove-AppxPackage
+#Get-AppxPackage Microsoft.Office.OneNote -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.Print3D -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.SkypeApp-AllUsers | Remove-AppxPackage
+#Get-AppxPackage Microsoft.Windows.Photos-AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsAlarms -AllUsers | Remove-AppxPackage
+#Get-AppxPackage Microsoft.WindowsCamera -AllUsers | Remove-AppxPackage
+Get-AppxPackage microsoft.windowsCommunicationsApps -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsFeedbackHub -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsMaps -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.WindowsSoundRecorder -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.ZuneMusic -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.ZuneVideo -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.MixedReality.Portal -AllUsers | Remove-AppxPackage
+Get-AppxPackage Microsoft.549981C3F5F10 -AllUsers | Remove-AppxPackage
 
 
 #
 #Sonstiges
-Get-AppxPackage XINGAG.XING| Remove-AppxPackage
-Get-AppxPackage SpotifyAB.SpotifyMusic| Remove-AppxPackage
+Get-AppxPackage XINGAG.XING -AllUsers| Remove-AppxPackage
+Get-AppxPackage SpotifyAB.SpotifyMusic -AllUsers| Remove-AppxPackage
 
-#Get-AppxPackage | Select Name, PackageFullName | Sort-Object -Property @{Expression = "PackageFullName"; Descending = $false}
+#Get-AppxPackage -AllUsers | Select Name, PackageFullName | Sort-Object -Property @{Expression = "PackageFullName"; Descending = $false}
